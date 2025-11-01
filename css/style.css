@@ -99,8 +99,6 @@ a {
 }
 .hero-container {
   display: block;
-  margin-right: auto;
-  margin-left: auto;
   text-align: center;
 }
 .section-main-hero {
@@ -113,6 +111,7 @@ a {
   padding-bottom: 292px;
   padding-left: 472px;
   margin-bottom: 48px;
+  width: 496;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
