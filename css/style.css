@@ -137,7 +137,21 @@ a {
 .tittle-advantages {
   display: none;
 }
+.advantages-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.advantages-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.advantages-item {
+  width: calc((100%-24px) / 4);
+}
 .subtitle-advantages {
+  display: flex;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -153,7 +167,13 @@ a {
 .section-main-teamcard {
   background-color: #f4f4fd;
 }
+
 .title-teamcard {
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -162,8 +182,19 @@ a {
   color: #2e2f42;
   text-transform: capitalize;
 }
+.teamcard-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+}
 .teamcard-item {
   background-color: #fff;
+  border-radius: 0 0 4px 4px;
+  padding-block: 0px 32px;
+  padding-inline: 0px;
+  max-width: 264px;
 }
 .subtitle-teamcard {
   font-weight: 500;
@@ -181,6 +212,10 @@ a {
   color: #434455;
 }
 .titlte-portfolio {
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -188,6 +223,10 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+}
+.list-portfolio {
+  display: flex;
+  align-items: center;
 }
 .subtitle-portfolio {
   font-weight: 500;
