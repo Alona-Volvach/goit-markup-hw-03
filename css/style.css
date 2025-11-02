@@ -143,7 +143,16 @@ img {
   background-color: #404bbf;
 }
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .advantages-container {
   margin-right: auto;
@@ -172,9 +181,12 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.teamcard-container {
+  padding: 32px 0;
+}
 .section-main-teamcard {
   background-color: #f4f4fd;
-  padding: 32px;
+  padding: 120px 0;
 }
 
 .title-teamcard {
@@ -182,7 +194,7 @@ img {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -212,6 +224,7 @@ img {
   margin-top: 32px;
 }
 .subtitle-teamcard {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -257,9 +270,10 @@ img {
   border-right: 1px solid #e7e9fc;
   padding-block: 32px;
   padding-inline: 16px;
-  width: calc((100%-48px) / 2);
+  row-gap: 48px;
 }
 .subtitle-portfolio {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -282,6 +296,7 @@ img {
 
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo .logo-part-footer {
   color: #f4f4fd;
